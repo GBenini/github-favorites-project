@@ -6,6 +6,63 @@
     <title>Github Favorites</title>
 </head>
 <body>
-    
+    <div id="app"></div>
+    <header>
+        <h1>Github Favorites</h1>
+        <div><label for="input-search">Usuário do Github</label>
+            <input id="input-search" type="text" placeholder="Usuário do Github">
+            <button>&plus;</button>
+        </div>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Usuário</th>
+                <th>Repositórios</th>
+                <th>Seguidores</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="user">
+                    <img src="https://github.com/GBenini.png" alt="Imagem de Guilherme Benini">
+                    <a href="https://github.com/GBenini" target="_blank">
+                        <p>Guilherme Benini</p>
+                        <span>GBenini</span>
+                    </a>
+                </td>
+                <td class="repositories">
+                    100
+                </td>
+                <td class="followers">
+                    10000
+                </td>
+                <td>
+                    <button>&times;</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="user">
+                    <img src="https://github.com/diego3g.png" alt="Imagem de DIego">
+                    <a href="https://github.com/diego3g" target="_blank">
+                        <p>DIego Fernandes</p>
+                        <span>GBenini</span>
+                    </a>
+                </td>
+                <td class="repositories">
+                    48
+                </td>
+                <td class="followers">
+                    22000
+                </td>
+                <td>
+                    <button>&times;</button>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
 </body>
 </html>
